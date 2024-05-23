@@ -8,6 +8,8 @@ const pinia = createPinia();
 setActivePinia(pinia);
 const language = useChangeLanguages();
 
+document.getElementById('html-root').setAttribute('lang', language.name);
+
 const i18n = createI18n({
   locale: language.name,
   fallbackLocale: 'ru',

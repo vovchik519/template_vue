@@ -554,8 +554,60 @@ video {
   --tw-contain-style:  ;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.min-w-9 {
+  min-width: 2.25rem;
+}
+
+.min-w-3 {
+  min-width: 0.75rem;
+}
+
+.min-w-5 {
+  min-width: 1.25rem;
+}
+
+.max-w-14 {
+  max-width: 3.5rem;
 }
 
 .justify-center {
@@ -566,9 +618,43 @@ video {
   gap: 0.5rem;
 }
 
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+.fill-black {
+  fill: #000;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+.fill-gray-700 {
+  fill: #374151;
+}
+
+.fill-orange-800 {
+  fill: #9a3412;
+}
+
+.stroke-black {
+  stroke: #000;
+}
+
+.stroke-gray-600 {
+  stroke: #4b5563;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .transition {

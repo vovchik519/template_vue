@@ -3,7 +3,6 @@
 ## Stack
 
 Vue3,
-SCSS,
 Tailwind,
 I18n,
 Pinia,
@@ -31,4 +30,11 @@ npm run build
 
 ```sh
 npm run lint
+```
+
+### Start Tailwind
+
+```sh
+npx tailwindcss -i ./src/app/styles/input.css -o ./src/app/styles/styles.css --watch
+
 ```
