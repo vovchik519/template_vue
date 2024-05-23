@@ -6,7 +6,8 @@ Vue3,
 Tailwind,
 I18n,
 Pinia,
-Архитектура - FSD
+Архитектура - FSD,
+Svg sprite
 
 ## Project Setup
 
