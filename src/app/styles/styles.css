@@ -554,28 +554,12 @@ video {
   --tw-contain-style:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
 .flex {
   display: flex;
 }
 
 .h-5 {
   height: 1.25rem;
-}
-
-.h-\[300vh\] {
-  height: 300vh;
 }
 
 .w-5 {
